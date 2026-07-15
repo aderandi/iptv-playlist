@@ -8,7 +8,7 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b788
 #EXTINF:-1 group-title="Nasional" tvg-logo="http://wsrv.nl/?url=https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_metrotv.png" ,Metro TV DIGITAL (S3)
 http://iptv.kilas7.com/live/kaukia/asdfrewq/6.m3u8
 
-#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.ibb.co.com/JcdKRXb/sctv.png" group-title="NASIONAL📺", SCTV 🇮🇩
+#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.ibb.co.com/JcdKRXb/sctv.png" group-title="DIKTA CHANNEL", SCTV 🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
 https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd
 
