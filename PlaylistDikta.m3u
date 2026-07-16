@@ -85,3 +85,6 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="ID: Trans 7" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-10/0994a7413bfc1f57f5c00a777a8b2a34.png" group-title="Indonesia",ID: Trans 7
 http://013tv.com:8080/F33848/cbd9779b/162502
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: Trans TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/924d40ca9187329b206629697e2cfeb4.png" group-title="Indonesia",ID: Trans TV
+http://013tv.com:8080/F33848/cbd9779b/162503
