@@ -83,5 +83,5 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h17/01.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="ID: TVRI Nasional" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/6e912e1e4bc79e0126c798b067a7665e.png" group-title="INDONESIA",ID: TVRI Nasional V2
-http://013tv.com:8080/F33848/cbd9779b/162504
+#EXTINF:-1 tvg-id="" tvg-name="ID: Trans 7" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-10/0994a7413bfc1f57f5c00a777a8b2a34.png" group-title="Indonesia",ID: Trans 7
+http://013tv.com:8080/F33848/cbd9779b/162502
