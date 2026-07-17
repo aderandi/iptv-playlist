@@ -88,7 +88,7 @@ http://013tv.com:8080/F33848/cbd9779b/162503
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://tvri.go.id/storage/tv-channels/xc7pyHkQidwNBCp1TuUIZgUqNuTu86q8scKYY72i.png",TVRI Sports
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/tvri-sport-id.png",TVRI Sports
 #EXTVLCOPT:http-origin=https://tvri.go.id/
 #EXTVLCOPT:http-referrer=https://tvri.go.id/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
