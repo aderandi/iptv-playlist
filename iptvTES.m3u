@@ -15,3 +15,7 @@ https://tvratu.my.id/vid/index.mpd?id=202&type=dash
 #EXTINF:-1 group-title="INDONESIA",203
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
 https://tvratu.my.id/vid/index.mpd?id=203&type=dash
+
+#EXTINF:-1 group-title="INDONESIA",204
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+https://tvratu.my.id/vid/index.mpd?id=204&type=dash
