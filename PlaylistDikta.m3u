@@ -22,8 +22,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/in
 https://tvratu.my.id/vid/index.mpd?id=204&type=dash
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
-https://tvratu.my.id/vid/index.mpd?id=205&type=dash
+http://rjcf.ofztvxv.top:8080/VIP01671713459308006/0c4b47ec8323/34327
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/mnc-tv-id.png",MNC TV
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
