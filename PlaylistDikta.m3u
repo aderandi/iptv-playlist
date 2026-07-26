@@ -146,12 +146,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sky%20Sport%20MotoGP.png",Sky Sport MotoGP
-http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55433
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sky%20Sport%20F1.png",Sky Sport F1
-http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55432
-
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/MotoGP.png",MotoGP
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de
@@ -209,6 +203,42 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/in
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b576e5f5f1bc4cbaa866e5b0face5a30:3377be6c3b5f688ebed687312c9b9d95
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportMotoGP.png",Sky Sport MotoGP
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55433
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportF1.png",Sky Sport F1
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55432
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySport24.png",Sky Sport 24
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55425
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportUno.png",Sky Sport Uno
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55426
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportCalcio.png",Sky Sport Calcio
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/88747
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportArena.png",Sky Sport Arena
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55428
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportMix.png",Sky Sport Mix
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/314595
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportMax.png",Sky Sport MAX
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55429
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportBasket.png",Sky Sport Basket
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55430
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportTennis.png",Sky Sport Tennis
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/55431
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportGolf.png",Sky Sport Golf
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/195781
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportLegend.png",Sky Sport Legend
+http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/314593
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Eurosport%201.png",EuroSport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
