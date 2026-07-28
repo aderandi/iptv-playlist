@@ -364,13 +364,13 @@ http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
 # =================================== TESTING ===================================================================================
 # ===============================================================================================================================
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdJh5T9mjR_khHytH1Fj3gOToJf2L18dcAzPZmrvJaA&s=10" group-title="TESTING",INDOSIAR
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdJh5T9mjR_khHytH1Fj3gOToJf2L18dcAzPZmrvJaA&s=10" group-title="PIALA PRESIDEN",INDOSIAR
 #EXTVLCOPT:http-referrer=https://lxscore.com/
 #EXTVLCOPT:http-origin=https://lxscore.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://v4-81285a097b2cd341b7871fa3aafac269.livehwc4.com/hd-stream.lxscore.com/live/default-1838512.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=3602c9e06c24e63cb08c1f98a65156a2
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdJh5T9mjR_khHytH1Fj3gOToJf2L18dcAzPZmrvJaA&s=10" group-title="TESTING",PIALA PRESIDEN
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdJh5T9mjR_khHytH1Fj3gOToJf2L18dcAzPZmrvJaA&s=10" group-title="PIALA PRESIDEN",PIALA PRESIDEN
 #EXTVLCOPT:http-origin=https://xlz.livepingscorex.com
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
