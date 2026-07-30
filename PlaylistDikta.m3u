@@ -366,5 +366,17 @@ http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
 # =================================== TESTING ===================================================================================
 # ===============================================================================================================================
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdJh5T9mjR_khHytH1Fj3gOToJf2L18dcAzPZmrvJaA&s=10" group-title="PIALA PRESIDEN",PIALA PRESIDEN
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdJh5T9mjR_khHytH1Fj3gOToJf2L18dcAzPZmrvJaA&s=10" group-title="LAINNYA",PIALA PRESIDEN
 http://filex.me:8080/live/3114654477/5787654467/302264.ts
+
+#EXTINF:-1 data-source="Manual" group-title="LAINNYA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvAPN1XkaodgywgdZVy6Us1UCXT5mnghfVg&s" tvg-uid="7ef63b4e47345dc60c57287d54d92405",M Live 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91b9592c819246c68b3b08a1fe08ba22:fa0d80dfd865b34077bae44cd4a0c5e6
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd
+
+#EXTINF:-1 data-source="Manual" group-title="LAINNYA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDv3Px_63rhHZ1c_9cJy8_Ou7uJuaEVWBAQ&s" tvg-uid="9037ef9d4e037e0af665d91eee92cc90",M Live 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d418f733ed224f9bb9c2b1589db22a20:6ed6fe26daa4b926810869ff60254ebb
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+https://tglmp02.akamaized.net/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
