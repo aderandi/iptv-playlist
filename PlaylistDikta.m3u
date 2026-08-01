@@ -373,9 +373,6 @@ https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
 # =================================== TESTING ===================================================================================
 # ===============================================================================================================================
 
-#EXTINF:-1 tvg-logo="" group-title="LAINNYA",DIKTA TV
-https://aderandi.github.io/diktaads/DiktaTV.mp4
-
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdJh5T9mjR_khHytH1Fj3gOToJf2L18dcAzPZmrvJaA&s=10" group-title="LAINNYA",PIALA PRESIDEN
 https://bigdickgital.semar26.xyz/fetch?id=idigital.m3u8&auth=idgtlsemar25
 
@@ -390,3 +387,21 @@ https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.m
 #KODIPROP:inputstream.adaptive.license_key=d418f733ed224f9bb9c2b1589db22a20:6ed6fe26daa4b926810869ff60254ebb
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 https://tglmp02.akamaized.net/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
+
+#EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV
+https://aderandi.github.io/diktaads/DiktaTV.mp4
+
+#EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV 2
+https://aderandi.github.io/diktaads/DiktaTV2.mp4
+
+#EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV 3
+https://aderandi.github.io/diktaads/DiktaTV3.mp4
+
+#EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV 4
+https://aderandi.github.io/diktaads/DiktaTV4.mp4
+
+#EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV 5
+https://aderandi.github.io/diktaads/DiktaTV5.mp4
+
+#EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV 6
+https://aderandi.github.io/diktaads/DiktaTV6.mp4
