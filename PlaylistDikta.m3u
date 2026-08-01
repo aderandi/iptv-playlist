@@ -388,6 +388,10 @@ https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.m
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 https://tglmp02.akamaized.net/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
 
+# ===============================================================================================================================
+# =================================== DIKTA TV ===================================================================================
+# ===============================================================================================================================
+
 #EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV
 https://aderandi.github.io/diktaads/DiktaTV.mp4
 
