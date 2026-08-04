@@ -137,6 +137,22 @@ http://nextgenz.my.id/event/pidio/play.mpd?id=18280&type=dash
 #KODIPROP:inputstream.adaptive.license_key=55d8bf610e3142408ecfa5295d7eba39:0774f3ae6ea32f9b4c24896f1fb5bb40
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd
 
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/BN%20Channel.png",BN Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://gvisiontv.channell.my.id/kitkat/untukstbkitkatmenolakpunah/https://flv.intechmedia.net/live/ch112.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SinPoTV.png",Sin Po TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
+#EXTVLCOPT:http-referrer=http://www.vidio.com/
+#EXTVLCOPT:http-origin=http://www.vidio.com
+http://tvratu.my.id/nissa/index.mpd?id=19046&type=dash
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/AjwaTV.png",Ajwa TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
+#EXTVLCOPT:http-referrer=http://www.vidio.com/
+#EXTVLCOPT:http-origin=http://www.vidio.com
+http://tvratu.my.id/nissa/index.mpd?id=7464&type=dash
+
 # ===============================================================================================================================
 # =================================== SPORTS ====================================================================================
 # ===============================================================================================================================
@@ -319,6 +335,19 @@ https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd
 #KODIPROP:inputstream.adaptive.license_key=75508caa27239cd34ca45ee862f1bbf2:d38f9f2b690bad3fcc838013242cc5e4
 https://ac-003.live.p7s1video.net/4a37da02/t_003/dazn-rise-hd/cenc-default.mpd
 
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/DAZN%20Ringside.png",DAZN Ringside
+http://gvisiontv.channell.my.id/kitkat/untukstbkitkatmenolakpunah/https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/FightTV.png",Fight TV
+http://gvisiontv.channell.my.id/kitkat/untukstbkitkatmenolakpunah/https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/70e45fc8-1f6c-4492-ac26-9868f70f4e02/manifest.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/PersianaFight.png",Persiana Fight
+http://gvisiontv.channell.my.id/kitkat/untukstbkitkatmenolakpunah/https://fighthls.persiana.live/hls/stream.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/WeDoTvSports.png",WeDoTv Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+http://gvisiontv.channell.my.id/kitkat/untukstbkitkatmenolakpunah/http://op-flashcon-digdayahd-1.dens.tv/h/h71/wedo_sport.m3u8?app_type=web&userid=lite&chname=wedoSports
+
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SoccerChannel.png",SOCCER Channel
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -382,6 +411,9 @@ http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
 # =================================== HIBURAN ===================================================================================
 # ===============================================================================================================================
 
+#EXTINF:-1 group-title="HIBURAN" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/HBO.png",HBO
+http://gvisiontv.channell.my.id/ch/ph/hbo.php/.mpd
+
 #EXTINF:-1 group-title="HIBURAN" tvg-logo="http://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/WweSuperstarCentral.png" ,WWE Superstar Central
 https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
 
@@ -413,12 +445,3 @@ https://aderandi.github.io/diktaads/DiktaTV5.mp4
 
 #EXTINF:-1 tvg-logo="" group-title="DIKTATV",DIKTA TV 6
 https://aderandi.github.io/diktaads/DiktaTV6.mp4
-
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="",BN Channel
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="",Sin Po TV
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="",Ajwa TV
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",DAZN Ringside
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",Fight TV
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",Persiana Fight
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",WeDoTv Sports
-#EXTINF:-1 group-title="HIBURAN" tvg-logo="",HBO
