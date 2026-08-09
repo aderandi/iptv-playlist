@@ -293,17 +293,20 @@ https://dash2.antik.sk/stream/nvidia_eurosport1/playlist_cenc.mpd
 https://dash2.antik.sk/stream/nvidia_eurosport2/playlist_cenc.mpd
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SporTV.png",SPORTV
-http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/290882
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b
+https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SporTV2.png",SPORTV 2
-http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/290880
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
+https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SporTV3.png",SPORTV 3
 http://zanza.xn--hq1bj8i52lnjb61u.xn--t60b56a:8080/001stef/sWBNg2G5hP/290881
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/red-bull-tv-int.png",RED BULL TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-https://db38umy8gexon.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-f561zwy85csh9/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/ufc-us.png",UFC
 #KODIPROP:inputstream.adaptive.license_type=clearkey
