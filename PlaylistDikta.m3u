@@ -410,13 +410,13 @@ http://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
 http://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 
 # ===============================================================================================================================
-# =================================== HIBURAN ===================================================================================
+# =================================== ENTERTAINMENT ===================================================================================
 # ===============================================================================================================================
 
-#EXTINF:-1 group-title="HIBURAN" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/HBO.png",HBO
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/HBO.png",HBO
 http://gvisiontv.channell.my.id/ch/ph/hbo.php/.mpd
 
-#EXTINF:-1 group-title="HIBURAN" tvg-logo="http://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/WweSuperstarCentral.png" ,WWE Superstar Central
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="http://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/WweSuperstarCentral.png" ,WWE Superstar Central
 https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
 
 # ===============================================================================================================================
