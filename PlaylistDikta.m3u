@@ -549,21 +549,14 @@ http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBopw4BNdNS25VNIDrSAX1E3HY
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0
 http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBop0pFD-M-pEb_6ZEo7Ob0n3Y
 
-#EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/sctv-id.png",SCTV (Sport)
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
-http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBop81ynOD5W08WkFNr1N5LHR4
-
 #EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/sctv-id.png",SCTV
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
-http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBop7FPTKRHxc8ElXfkFQv1L50
-
-#EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",Indosiar (Sport)
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
-http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBop-3KeGO051lETi1wYED7Zv0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=204
 
 #EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",Indosiar
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
-http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBopxEl0l2L5A9O5stfBkEJHaM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=205
 
 #EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/mnc-tv-id.png",MNC TV
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0
