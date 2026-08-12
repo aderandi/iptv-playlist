@@ -609,6 +609,11 @@ http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBop6Z-pxdCEApnYe-WAp3igQg
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0
 http://goldenid.online:80/play/2TH5HvjUOKBWBsO02OBop32X9cO22mgv2uDTigt5cZ0
 
+#EXTINF:-1, SCTV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/saya.suka?id=8&type=fitnah
+https://boti.my.id/saya.mpd?id=8&type=backdoor
+
 # ===============================================================================================================================
 # =================================== DIKTA TV ===================================================================================
 # ===============================================================================================================================
