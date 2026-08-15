@@ -122,10 +122,8 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/ind
 http://gvisiontv.channell.my.id/kitkat/untukstbkitkatmenolakpunah/https://flv.intechmedia.net/live/ch112.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SinPoTV.png",Sin Po TV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_key=27fe63a923084c12b0b05d33d204bdca:f9624ac728524e9fdf8e3a97018fe26d
-https://atemecdnbalancer-voe.sysln.id/live/eds/SINPOTVHD/mediampd/SINPOTVHD.mpd
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.18
+https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/SinpoTV.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/AjwaTV.png",Ajwa TV
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
