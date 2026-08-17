@@ -46,20 +46,12 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w80388450_b38400
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w481242722_b384000_sleng.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",INDOSIAR
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-origin=https://www.vidio.com
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://tvratu.my.id/vid/index.mpd?id=2058&type=drm
-https://tvratu.my.id/vid/index.mpd?id=205&type=dash
+#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
+https://bigdickgital.semar26.xyz/fetch?id=idigital.m3u8&auth=idgtlsemar25
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/sctv-id.png",SCTV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-origin=https://www.vidio.com
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://tvratu.my.id/vid/index.mpd?id=2048&type=drm
-https://tvratu.my.id/vid/index.mpd?id=204&type=dash
+#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
+https://bigdickgital.semar26.xyz/fetch?id=sdigital.m3u8&auth=sdgtlsemar25
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/moji-id.png",MOJI TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
@@ -565,16 +557,3 @@ https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
 # ===============================================================================================================================
 # =================================== BACKUP ====================================================================================
 # ===============================================================================================================================
-
-#EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",INDOSIAR 2
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
-https://bigdickgital.semar26.xyz/fetch?id=idigital.m3u8&auth=idgtlsemar25
-
-#EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/sctv-id.png",SCTV 2
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
-https://bigdickgital.semar26.xyz/fetch?id=sdigital.m3u8&auth=sdgtlsemar25
-
-# ===============================================================================================================================
-# =================================== DIKTA TV ===================================================================================
-# ===============================================================================================================================
-
