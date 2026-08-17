@@ -570,14 +570,14 @@ https://live-channel4-cdn.visionplus.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/
 https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
 
 # ===============================================================================================================================
-# =================================== TESTING ===================================================================================
+# =================================== BACKUP ====================================================================================
 # ===============================================================================================================================
 
-#EXTINF:-1 group-title="TESTING" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",INDOSIAR 2
+#EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",INDOSIAR 2
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0
 https://bigdickgital.semar26.xyz/fetch?id=idigital.m3u8&auth=idgtlsemar25
 
-#EXTINF:-1 group-title="TESTING" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/sctv-id.png",SCTV 2
+#EXTINF:-1 group-title="BACKUP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/sctv-id.png",SCTV 2
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0
 https://bigdickgital.semar26.xyz/fetch?id=sdigital.m3u8&auth=sdgtlsemar25
 
