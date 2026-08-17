@@ -1,7 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="Telegram DIKTA TV" group-title="Dikta TV",TELEGRAM
+#EXTINF:-1 tvg-name="Telegram DIKTA TV" group-title="DIKTA TV",TELEGRAM
 https://t.me/diktatv
 
-#EXTINF:-1 tvg-name="Instagram DIKTA TV" group-title="Dikta TV",INSTAGRAM
+#EXTINF:-1 tvg-name="Instagram DIKTA TV" group-title="DIKTA TV",INSTAGRAM
 https://www.instagram.com/aderandi95/
