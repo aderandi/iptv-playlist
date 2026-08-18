@@ -1,0 +1,805 @@
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://colloriptvpro.biz.id/test/index.php?id=8&type=drm
+URLNYA DISINI (ID KEY BEDASARKAN CHANNEL)
+
+ALTERNATIF
+https://colloriptvpro.biz.id/test/index.mpd?id=8&type=mpd
+https://colloriptvpro.biz.id/test/index.php?id=8&type=drm
+https://colloriptvpro.biz.id/vismet/stream.mpd?id=120&type=mpd
+https://colloriptvpro.biz.id/vismet/stream.php?id=120&type=drm
+
+[
+    {
+        "image": "https://www.visionplus.id/images/repository/580/580-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 1,
+        "channel_name": "RCTI"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/581/581-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 2,
+        "channel_name": "MNC TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/582/582-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 3,
+        "channel_name": "GTV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/583/583-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 4,
+        "channel_name": "iNews"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/584/584-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 5,
+        "channel_name": "SINDONEWS TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/585/585-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 6,
+        "channel_name": "Trans TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/586/586-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 7,
+        "channel_name": "Trans 7"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/062/569062-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 8,
+        "channel_name": "SCTV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/066/569066-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 9,
+        "channel_name": "Indosiar"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/587/587-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 10,
+        "channel_name": "ANTV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/588/588-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 11,
+        "channel_name": "RTV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/589/589-LOGO-l.png",
+        "category": "News",
+        "channel_number": 12,
+        "channel_name": "TV One"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/590/590-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 13,
+        "channel_name": "Kompas TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/591/591-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 14,
+        "channel_name": "Metro TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/357/273357-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 15,
+        "channel_name": "BTV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/593/593-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 16,
+        "channel_name": "TVRI"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/595/595-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 18,
+        "channel_name": "DAAI TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/070/569070-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 19,
+        "channel_name": "Moji"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/074/569074-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 20,
+        "channel_name": "Mentari TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/334/320334-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 23,
+        "channel_name": "MD TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/856/856-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 24,
+        "channel_name": "JTV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/598/598-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 25,
+        "channel_name": "JAK TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/599/599-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 26,
+        "channel_name": "Bali TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/600/600-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 27,
+        "channel_name": "Bandung TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/601/601-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 28,
+        "channel_name": "TV 9"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/839/437839-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 29,
+        "channel_name": "DMI TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/603/603-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 30,
+        "channel_name": "TVMU"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/360/273360-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 36,
+        "channel_name": "Originals"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/392/273392-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 37,
+        "channel_name": "Buddy Stars"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/397/273397-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 38,
+        "channel_name": "Uniques"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/394/273394-LOGO-m.png",
+        "category": "Movies",
+        "channel_number": 39,
+        "channel_name": "Superrix"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/376/273376-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 40,
+        "channel_name": "Cinneedge"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/609/609-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 41,
+        "channel_name": "Thrill"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/610/610-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 42,
+        "channel_name": "Hits Movies"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/612/612-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 44,
+        "channel_name": "Celestial Movies"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/613/613-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 45,
+        "channel_name": "CCM"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/614/614-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 46,
+        "channel_name": "TVN Movies"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/277/410277-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 47,
+        "channel_name": "Zee Bioskop"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/616/616-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 48,
+        "channel_name": "GALAXY PREMIUM"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/617/617-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 49,
+        "channel_name": "GALAXY"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/342/10342-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 50,
+        "channel_name": "IMC (Indonesia Movie Channel)"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/114/345114-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 54,
+        "channel_name": "Studio Universal"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/623/623-LOGO-l.png",
+        "category": "Kids",
+        "channel_number": 56,
+        "channel_name": "Kids TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/909/162909-LOGO-l.png",
+        "category": "Kids",
+        "channel_number": 57,
+        "channel_name": "Moonbug"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/228/494228-LOGO-m.png",
+        "category": "Kids",
+        "channel_number": 58,
+        "channel_name": "Cbeebies"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/147/75147-LOGO-l.png",
+        "category": "Kids",
+        "channel_number": 60,
+        "channel_name": "Nick Jr"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/626/626-LOGO-l.png",
+        "category": "Kids",
+        "channel_number": 63,
+        "channel_name": "Zoo Moo"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/627/627-LOGO-l.png",
+        "category": "Kids",
+        "channel_number": 64,
+        "channel_name": "Nick"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/628/628-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 65,
+        "channel_name": "Animax"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/630/630-LOGO-l.png",
+        "category": "Kids",
+        "channel_number": 67,
+        "channel_name": "DREAMWORKS "
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/376/612376-LOGO-m.png",
+        "category": "Entertainment",
+        "channel_number": 68,
+        "channel_name": "HITS Now"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/317/604317-LOGO-m.png",
+        "category": "Entertainment",
+        "channel_number": 69,
+        "channel_name": "Formosa TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/548/604548-LOGO-m.png",
+        "category": "Entertainment",
+        "channel_number": 70,
+        "channel_name": "Sanlih"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/534/172534-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 71,
+        "channel_name": "Food Travel"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/632/632-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 72,
+        "channel_name": "Entertainment"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/103/458103-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 73,
+        "channel_name": "TVN"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/635/635-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 75,
+        "channel_name": "Kix"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/636/636-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 76,
+        "channel_name": "NHK World Premium"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/637/637-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 77,
+        "channel_name": "Hits"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/638/638-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 79,
+        "channel_name": "AXN"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/639/639-LOGO-l.png",
+        "category": "Knowledge",
+        "channel_number": 80,
+        "channel_name": "Lifetime"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/641/641-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 87,
+        "channel_name": "Vision Prime"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/642/642-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 88,
+        "channel_name": "Celebrities TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/705/243705-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 89,
+        "channel_name": "Hanacaraka TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/644/644-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 92,
+        "channel_name": "Rock Entertainment"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/645/645-LOGO-l.png",
+        "category": "Movies",
+        "channel_number": 93,
+        "channel_name": "Rock Action"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/646/646-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 95,
+        "channel_name": "Crime Investigation"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/647/647-LOGO-l.png",
+        "category": "Knowledge",
+        "channel_number": 101,
+        "channel_name": "Outdoor Channel"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/230/494230-LOGO-m.png",
+        "category": "Knowledge",
+        "channel_number": 102,
+        "channel_name": "BBC Earth"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/649/649-LOGO-l.png",
+        "category": "Knowledge",
+        "channel_number": 103,
+        "channel_name": "Global Trekker"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/650/650-LOGO-l.png",
+        "category": "Knowledge",
+        "channel_number": 104,
+        "channel_name": "History"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/682/295682-LOGO-l.png",
+        "category": "Knowledge",
+        "channel_number": 105,
+        "channel_name": "Love Nature"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/652/652-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 112,
+        "channel_name": "Sportstars"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/653/653-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 113,
+        "channel_name": "Sportstars 2"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/654/654-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 114,
+        "channel_name": "Sportstars 3"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/655/655-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 115,
+        "channel_name": "Soccer Channel"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/656/656-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 119,
+        "channel_name": "SpoTV 1"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/657/657-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 120,
+        "channel_name": "SpoTV 2"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/658/658-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 121,
+        "channel_name": "Fight Sports"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/771/198771-LOGO-m.png",
+        "category": "Sports",
+        "channel_number": 122,
+        "channel_name": "beIN SPORTS"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/772/198772-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 123,
+        "channel_name": "beIN SPORTS 2"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/770/198770-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 124,
+        "channel_name": "beIN SPORTS 3"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/897/198897-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 125,
+        "channel_name": "beIN SPORTS 4"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/898/198898-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 126,
+        "channel_name": "beIN SPORTS 5"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/232/494232-LOGO-m.png",
+        "category": "News",
+        "channel_number": 130,
+        "channel_name": "BBC World news"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/382/600382-LOGO-l.png",
+        "category": "News",
+        "channel_number": 131,
+        "channel_name": "CNBC Asia"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/662/662-LOGO-l.png",
+        "category": "News",
+        "channel_number": 132,
+        "channel_name": "FOX News"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/663/663-LOGO-l.png",
+        "category": "News",
+        "channel_number": 133,
+        "channel_name": "Bloomberg"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/659/659-LOGO-l.png",
+        "category": "News",
+        "channel_number": 134,
+        "channel_name": "IDX"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/664/664-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 137,
+        "channel_name": "Muslim TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/665/665-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 138,
+        "channel_name": "LIFE"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/666/666-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 139,
+        "channel_name": "Reformed 21"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/667/667-LOGO-l.png",
+        "category": "Music",
+        "channel_number": 142,
+        "channel_name": "Music TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/670/670-LOGO-l.png",
+        "category": "News",
+        "channel_number": 146,
+        "channel_name": "DW"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/671/671-LOGO-l.png",
+        "category": "News",
+        "channel_number": 147,
+        "channel_name": "France 24"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/672/672-LOGO-l.png",
+        "category": "News",
+        "channel_number": 148,
+        "channel_name": "TRT World"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/850/850-LOGO-l.png",
+        "category": "News",
+        "channel_number": 149,
+        "channel_name": "Aljazeera"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/674/674-LOGO-l.png",
+        "category": "News",
+        "channel_number": 150,
+        "channel_name": "RT"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/675/675-LOGO-l.png",
+        "category": "News",
+        "channel_number": 151,
+        "channel_name": "EURONEWS"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/847/847-LOGO-l.png",
+        "category": "News",
+        "channel_number": 152,
+        "channel_name": "Channel News Asia"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/677/677-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 153,
+        "channel_name": "Al Quran Al Kareem"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/678/678-LOGO-l.png",
+        "category": "Religion",
+        "channel_number": 154,
+        "channel_name": "EWTN"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/679/679-LOGO-l.png",
+        "category": "Knowledge",
+        "channel_number": 155,
+        "channel_name": "CGTN Documentary"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/680/680-LOGO-l.png",
+        "category": "Knowledge",
+        "channel_number": 156,
+        "channel_name": "CGTN"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/681/681-LOGO-l.png",
+        "category": "Lifestyle",
+        "channel_number": 157,
+        "channel_name": "Anhui"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/858/858-LOGO-l.png",
+        "category": "Lifestyle",
+        "channel_number": 158,
+        "channel_name": "Xing kong TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/683/683-LOGO-l.png",
+        "category": "Lifestyle",
+        "channel_number": 159,
+        "channel_name": "Shanghai Dragon"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/853/853-LOGO-l.png",
+        "category": "Lifestyle",
+        "channel_number": 160,
+        "channel_name": "Hunan TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/685/685-LOGO-l.png",
+        "category": "Lifestyle",
+        "channel_number": 161,
+        "channel_name": "Jiangsu TV"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/686/686-LOGO-l.png",
+        "category": "Lifestyle",
+        "channel_number": 162,
+        "channel_name": "NHK"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/311/580311-LOGO-m.png",
+        "category": "Lifestyle",
+        "channel_number": 163,
+        "channel_name": "TV5Monde"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/688/688-LOGO-l.png",
+        "category": "News",
+        "channel_number": 164,
+        "channel_name": "Arirang"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/689/689-LOGO-l.png",
+        "category": "News",
+        "channel_number": 165,
+        "channel_name": "ABC"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/426/173426-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 201,
+        "channel_name": "RCTI World"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/424/173424-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 202,
+        "channel_name": "GTV World"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/425/173425-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 203,
+        "channel_name": "MNC TV World"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/427/173427-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 204,
+        "channel_name": "Drama World"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/691/691-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 205,
+        "channel_name": "Sportstars 4"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/711/112711-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 251,
+        "channel_name": "DENS Food Channel"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/088/115088-LOGO-l.png",
+        "category": "Entertainment",
+        "channel_number": 252,
+        "channel_name": "DENSPLAY Channel"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/712/112712-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 253,
+        "channel_name": "DENS Showbizz Channel"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/444/92444-LOGO-m.png",
+        "category": "Sports",
+        "channel_number": 1002,
+        "channel_name": "V+ LIVE\t"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/817/138817-LOGO-l.png",
+        "category": "National TV",
+        "channel_number": 1008,
+        "channel_name": "R+ Live"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/710/112710-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1010,
+        "channel_name": "V+ LIVE 2"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/883/124883-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1011,
+        "channel_name": "V+ Sport"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/698/129698-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1012,
+        "channel_name": "V+ LIVE 3"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/509/128509-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1013,
+        "channel_name": "V+ LIVE 4"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/287/191287-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1014,
+        "channel_name": "V+ Live 5"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/288/191288-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1015,
+        "channel_name": "V+ Live 6"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/289/191289-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1016,
+        "channel_name": "V+ Live 7"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/290/191290-LOGO-l.png",
+        "category": "Sports",
+        "channel_number": 1017,
+        "channel_name": "V+ Live 8"
+    },
+    {
+        "image": "https://www.visionplus.id/images/repository/402/552402-LOGO-m.png",
+        "category": "Sports",
+        "channel_number": 1018,
+        "channel_name": "V+ Live 9"
+    }
+]
