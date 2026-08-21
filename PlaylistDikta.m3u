@@ -536,6 +536,10 @@ https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/a
 #EXTVLCOPT:http-user-agent=OTT Navigator 1.9.6.4 (Android)
 https://ilglobotv-live.akamaized.net/channels/InterTV/Live.m3u8
 
+#EXTINF:-1 group-title="SPORTS+" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/BenficaTV.png",Benfica TV
+#EXTVLCOPT:http-user-agent=OTT Navigator 1.9.6.4 (Android)
+https://raw.githubusercontent.com/tsender57-dotcom/iptv-rox-playlist/main/MyIPTV/channels2/983567.m3u8
+
 # ===============================================================================================================================
 # =================================== KIDS ======================================================================================
 # ===============================================================================================================================
