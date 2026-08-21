@@ -601,7 +601,11 @@ http://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 # ===============================================================================================================================
 
 #EXTINF:-1 group-title="MOVIE & ENT" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/HBO.png",HBO
-http://gvisiontv.channell.my.id/ch/ph/hbo.php/.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-referrer=https://www.indihometv.com
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://cdnbal1.indihometv.com/atm/DASH/hbo/master.mpd
 
 #EXTINF:-1" group-title="MOVIE & ENT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-asia/hits-asi.png",HITS
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
