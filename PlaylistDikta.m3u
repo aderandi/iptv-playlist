@@ -47,7 +47,9 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w528835010_b3840
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w481242722_b384000_sleng.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",INDOSIAR
-http://line.4k-beast.top/ehZZtoP2AZdmcJJ/llCtpHFoxt/1505849
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=205
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/indosiar-id.png",INDOSIAR 2
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0
