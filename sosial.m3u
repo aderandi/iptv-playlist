@@ -1,13 +1,10 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="Telegram DIKTA TV" group-title="DIKTA TV",TELEGRAM
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",TELEGRAM
 https://t.me/diktatv
 
-#EXTINF:-1 tvg-name="Instagram DIKTA TV" group-title="DIKTA TV",INSTAGRAM
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",INSTAGRAM
 https://www.instagram.com/aderandi95/
 
-#EXTINF:-1 tvg-name="Instagram DIKTA TV" group-title="DIKTA TV",LINK DOWNLOAD
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",LINK DOWNLOAD
 https://sfile.co/user/8089581784507256
-
-#EXTINF:-1 tvg-name="Instagram DIKTA TV" group-title="DIKTA TV",TERIMA KASIH
-https://saweria.co/randhyrandhy421
