@@ -24,19 +24,19 @@ http://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 http://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
 
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/trans-7-id.png",TRANS 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=7.play
-https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+### "#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/trans-7-id.png",TRANS 7
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=7.play
+### "https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
 
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/trans-tv-id.png",TRANS TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=6.play
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
+### "#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/trans-tv-id.png",TRANS TV
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=6.play
+### "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/CNN%20id.png",CNN Indonesia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
@@ -154,19 +154,19 @@ http://tvratu.my.id/nissa/index.mpd?id=7464&type=dash
 # =================================== SPORTS ====================================================================================
 # ===============================================================================================================================
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Spotv.png",SPOTV ID
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=119.play
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Spotv.png",SPOTV ID
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=119.play
+### "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Spotv%202.png",SPOTV 2 ID
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=120.play
-https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Spotv%202.png",SPOTV 2 ID
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=120.play
+### "https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Spotv.png",SPOTV PH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -181,61 +181,61 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
 #KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars.png",Sportstars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=112.play
-https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars.png",Sportstars
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=112.play
+### "https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars%202.png",Sportstars 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=113.play
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars%202.png",Sportstars 2
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=113.play
+### "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars%203.png",Sportstars 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=114.play
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars%203.png",Sportstars 3
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=114.play
+### "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars%204.png",Sportstars 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=205.play
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Sportstars%204.png",Sportstars 4
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=205.play
+### "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SoccerChannel.png",SOCCER Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=115.play
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SoccerChannel.png",SOCCER Channel
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=115.play
+### "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-1-hz-int.png",beIN Sports 1 ID
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=122.play
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-1-hz-int.png",beIN Sports 1 ID
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=122.play
+### "https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-2-hz-int.png",beIN Sports 2 ID
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=123.play
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-2-hz-int.png",beIN Sports 2 ID
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=123.play
+### "https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-3-hz-int.png",beIN Sports 3 ID
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=124.play
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
+### "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-3-hz-int.png",beIN Sports 3 ID
+### "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+### "#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+### "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+### "#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=124.play
+### "https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-1-hz-int.png",beIN Sports 1 AU
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -715,12 +715,3 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/in
 
 #EXTINF:-1 group-title="MOVIE & ENT" tvg-logo="http://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/WweSuperstarCentral.png" ,WWE Superstar Central
 https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
-
-
-#EXTINF:-1 group-title="TES" tvg-logo="",TES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=119.play
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
-
