@@ -46,8 +46,8 @@ http://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
 https://bigdickgital.semar26.xyz/fetch?id=trans7.m3u8&auth=transsemar25
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/trans-tv-id.png",TRANS TV
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0 (Linux;Android 11)
-https://bigdickgital.semar26.xyz/fetch?id=transtv.m3u8&auth=transsemar25
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
+https://livestream.transtv.co.id/stream/live/ttv.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/CNN%20id.png",CNN Indonesia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
@@ -319,12 +319,8 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsa3hwuhd1/
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/TNTsports1.png",TNT Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/Channels/1174236.m3u8
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/TNTsports2.png",TNT Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
@@ -369,6 +365,12 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/wybgz0orr8/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9f327d24c66fbd84e15ab5c9ead7c7a4:83837185529c0c4048f81386c2d36426
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="",FOX Deportes
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png",DSPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -585,6 +587,28 @@ https://galandriel1.thobias11.cfd/puk4/usergendx42x9qrnd.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://canale-tv.com/
 https://galandriel1.thobias11.cfd/puk5/usergen0grnd3y8.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="",On Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3d73b3a9b89462ebf7911004ea3b3b9:2e547a81ff90aa02648cb9e3f79e7339
+https://livebytsctbu.vtvprime.vn/mean/HAY_TV/manifest.mpd
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="",Premier Sport 1
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
+http://kstv.us:8080/live/jimmyrhale/JE1974aa$$/47858.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="",Premier Sport 2
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
+http://kstv.us:8080/live/jimmyrhale/JE1974aa$$/47859.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="",Sport Digital Fussball
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
+https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
 
 # ===============================================================================================================================
 # =================================== SPORTS+ ===================================================================================
