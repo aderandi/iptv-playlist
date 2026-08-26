@@ -485,21 +485,21 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/Channels/116
 ## "#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportLegend.png",Sky Sport Legend
 
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",Sky Sports Action
-#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/Channels/1312045.m3u8
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",Sky Sports Racing
-#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/Channels/1312042.m3u8
-
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",Sky Sports News
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportsNews.webp",Sky Sports News
 #EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/Channels/1312039.m3u8
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="",Sky Sports F1
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportsF1.webp",Sky Sports F1
 #EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
 https://raw.githubusercontent.com/tsender57-dotcom/iptv-rox-playlist/main/MyIPTV/channels5/83453.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportsAction.webp",Sky Sports Action
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/Channels/1312045.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportsRacing.webp",Sky Sports Racing
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/Channels/1312042.m3u8
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SkySportsPremierLeagueUK.png",Sky Sports Premier League
 #EXTVLCOPT:http-user-agent=OTT Navigator/1.6.9.0 (Linux;Android 11) ExoPlayerLib/2.15.1
