@@ -15,30 +15,77 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Gabungkan Playlist
-        run: |
-          echo "#EXTM3U" > sosial.m3u
-          
-          # 1. Masukkan channel lokal
-          if [ -f "local.m3u" ]; then
-            grep -v '^#EXTM3U' local.m3u >> sosial.m3u
-            echo "" >> sosial.m3u
-          fi
-          
-          # 2. Ambil playlist Ngebutz via Proxy Bridge (Bypass 403 Datacenter)
-          curl -s -L "https://api.allorigins.win/raw?url=https%3A%2F%2Ftv.ngebutz.my.id%2Fplaylist%2Fnonton2025%2F12345%2Fm3u_plus" > temp.m3u
-          
-          # 3. Validasi: hanya masukkan jika isi file adalah channel M3U (bukan HTML 403)
-          if grep -q "#EXTINF" temp.m3u; then
-            grep -v '^#EXTM3U' temp.m3u >> sosial.m3u
-          fi
-          
-          rm -f temp.m3u
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-      - name: Simpan Perubahan
+      - name: Install dependencies
+        run: pip install urllib3 requests cloudscraper
+
+      - name: Fetch and Merge Playlist
+        run: |
+          python -c '
+          import os
+          import cloudscraper
+          import requests
+
+          target_url = "https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus"
+          m3u_content = ""
+
+          # 1. Coba fetch dengan cloudscraper (bypass anti-bot/WAF)
+          try:
+              scraper = cloudscraper.create_scraper(
+                  browser={"browser": "chrome", "platform": "android", "mobile": True}
+              )
+              res = scraper.get(target_url, headers={"User-Agent": "OTT Navigator 1.9.6.4 (Android)"}, timeout=20)
+              if res.status_code == 200 and "#EXTINF" in res.text:
+                  m3u_content = res.text
+          except Exception as e:
+              print("Cloudscraper failed:", e)
+
+          # 2. Fallback: coba via proxy resolver jika cara 1 gagal
+          if not m3u_content:
+              try:
+                  proxy_url = f"https://api.codetabs.com/v1/proxy/?quest={target_url}"
+                  res = requests.get(proxy_url, timeout=20)
+                  if res.status_code == 200 and "#EXTINF" in res.text:
+                      m3u_content = res.text
+              except Exception as e:
+                  print("Proxy fallback failed:", e)
+
+          if not m3u_content:
+              print("Gagal mengambil data dari server Ngebutz.")
+              exit(0)
+
+          # 3. Baca channel lokal jika ada
+          local_lines = []
+          if os.path.exists("local.m3u"):
+              with open("local.m3u", "r", encoding="utf-8") as f:
+                  for line in f:
+                      if not line.strip().startswith("#EXTM3U") and line.strip():
+                          local_lines.append(line.rstrip())
+
+          # 4. Olah baris dari playlist target
+          target_lines = []
+          for line in m3u_content.splitlines():
+              trimmed = line.strip()
+              if trimmed.startswith("#EXTM3U") or not trimmed:
+                  continue
+              target_lines.append(trimmed)
+
+          # 5. Gabungkan dan simpan ke sosial.m3u
+          final_m3u = ["#EXTM3U"] + local_lines + target_lines
+          with open("sosial.m3u", "w", encoding="utf-8") as f:
+              f.write("\n".join(final_m3u) + "\n")
+
+          print(f"Berhasil menggabungkan {len(target_lines)} baris channel ke sosial.m3u")
+          '
+
+      - name: Simpan Perubahan ke Repo
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sosial.m3u
-          git commit -m "Auto update playlist" || exit 0
+          git commit -m "Auto update merged playlist" || exit 0
           git push
