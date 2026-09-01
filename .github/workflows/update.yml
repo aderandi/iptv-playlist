@@ -15,28 +15,65 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch and Merge Playlist
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Playwright
         run: |
-          echo "#EXTM3U" > sosial.m3u
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
 
-          # 1. Masukkan channel lokal jika ada
-          if [ -f "local.m3u" ]; then
-            grep -v '^#EXTM3U' local.m3u >> sosial.m3u
-            echo "" >> sosial.m3u
-          fi
+      - name: Scrape and Merge Playlist
+        run: |
+          node -e '
+          const { chromium } = require("playwright");
+          const fs = require("fs");
 
-          # 2. Download via CorsProxy Bridge untuk menembus blokir IP GitHub Actions
-          curl -s -L "https://corsproxy.io/?url=https%3A%2F%2Ftv.ngebutz.my.id%2Fplaylist%2Fnonton2025%2F12345%2Fm3u_plus" > remote.m3u
+          (async () => {
+            const browser = await chromium.launch({ headless: true });
+            const context = await browser.newContext({
+              userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            });
+            const page = await context.newPage();
 
-          # 3. Masukkan channel jika valid
-          if grep -q "#EXTINF" remote.m3u; then
-            grep -v '^#EXTM3U' remote.m3u >> sosial.m3u
-            echo "Channel berhasil ditarik dan digabung!"
-          else
-            echo "Proxy gagal mengambil channel."
-          fi
+            console.log("Mengakses server target...");
+            const response = await page.goto("https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus", {
+              waitUntil: "networkidle",
+              timeout: 60000
+            });
 
-          rm -f remote.m3u
+            const content = await response.text();
+            await browser.close();
+
+            if (!content.includes("#EXTINF")) {
+              console.log("Gagal: Konten tidak valid atau kosong.");
+              process.exit(0);
+            }
+
+            // 1. Baca channel lokal jika ada
+            let localContent = "";
+            if (fs.existsSync("local.m3u")) {
+              localContent = fs.readFileSync("local.m3u", "utf-8")
+                .split("\n")
+                .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "")
+                .join("\n");
+            }
+
+            // 2. Filter isi target
+            const targetLines = content
+              .split("\n")
+              .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "")
+              .join("\n");
+
+            // 3. Gabungkan dan simpan
+            const finalM3U = "#EXTM3U\n" + (localContent ? localContent + "\n" : "") + targetLines + "\n";
+            fs.writeFileSync("sosial.m3u", finalM3U, "utf-8");
+            console.log("Berhasil menggabungkan seluruh channel!");
+          })();
+          '
 
       - name: Commit and Push
         run: |
