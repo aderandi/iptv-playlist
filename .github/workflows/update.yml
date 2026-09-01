@@ -2,8 +2,8 @@ name: Auto Merge Playlist
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Jalan otomatis tiap 3 jam
-  workflow_dispatch: # Tombol manual
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,14 +18,21 @@ jobs:
       - name: Gabungkan Playlist
         run: |
           echo "#EXTM3U" > sosial.m3u
+          
+          # 1. Masukkan channel lokal
           if [ -f "local.m3u" ]; then
             grep -v '^#EXTM3U' local.m3u >> sosial.m3u
             echo "" >> sosial.m3u
           fi
-          curl -s -L -A "Mozilla/5.0" "https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus" > temp.m3u
-          if [ -s "temp.m3u" ]; then
+          
+          # 2. Ambil playlist Ngebutz via Proxy Bridge (Bypass 403 Datacenter)
+          curl -s -L "https://api.allorigins.win/raw?url=https%3A%2F%2Ftv.ngebutz.my.id%2Fplaylist%2Fnonton2025%2F12345%2Fm3u_plus" > temp.m3u
+          
+          # 3. Validasi: hanya masukkan jika isi file adalah channel M3U (bukan HTML 403)
+          if grep -q "#EXTINF" temp.m3u; then
             grep -v '^#EXTM3U' temp.m3u >> sosial.m3u
           fi
+          
           rm -f temp.m3u
 
       - name: Simpan Perubahan
