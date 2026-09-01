@@ -2,8 +2,8 @@ name: Auto Merge Playlist
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Berjalan otomatis tiap 3 jam
-  workflow_dispatch: # Tombol manual 'Run workflow'
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,35 +12,28 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch and Merge Playlists
+      - name: Fetch and Merge Playlist
         run: |
-          # 1. Buat ulang sosial.m3u dengan header utama
           echo "#EXTM3U" > sosial.m3u
 
-          # 2. Masukkan daftar channel lokal jika file local.m3u ada
+          # 1. Masukkan channel lokal jika ada
           if [ -f "local.m3u" ]; then
             grep -v '^#EXTM3U' local.m3u >> sosial.m3u
             echo "" >> sosial.m3u
           fi
 
-          # 3. Download playlist Ngebutz dengan Header & User-Agent pemutar Android
-          curl -s -k -L \
-            --http1.1 \
-            -H "User-Agent: OTT Navigator 1.9.6.4 (Android)" \
-            -H "Accept: */*" \
-            -H "Connection: keep-alive" \
-            "https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus" > remote.m3u
+          # 2. Download via CorsProxy Bridge untuk menembus blokir IP GitHub Actions
+          curl -s -L "https://corsproxy.io/?url=https%3A%2F%2Ftv.ngebutz.my.id%2Fplaylist%2Fnonton2025%2F12345%2Fm3u_plus" > remote.m3u
 
-          # 4. Validasi isi file: pastikan berisi channel (#EXTINF), bukan error HTML 403
+          # 3. Masukkan channel jika valid
           if grep -q "#EXTINF" remote.m3u; then
             grep -v '^#EXTM3U' remote.m3u >> sosial.m3u
-            echo "Berhasil menggabungkan channel dari Ngebutz."
+            echo "Channel berhasil ditarik dan digabung!"
           else
-            echo "Gagal: Server merespons selain channel valid. Isi file:"
-            cat remote.m3u | head -n 10
+            echo "Proxy gagal mengambil channel."
           fi
 
           rm -f remote.m3u
@@ -50,5 +43,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sosial.m3u
-          git commit -m "Auto merge playlist [$(date +'%Y-%m-%d %H:%M')]" || exit 0
+          git commit -m "Auto update playlist [$(date +'%Y-%m-%d %H:%M')]" || exit 0
           git push
