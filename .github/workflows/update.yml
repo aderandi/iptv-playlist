@@ -12,86 +12,78 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
-      - name: Install Dependencies
-        run: pip install urllib3 requests
+      - name: Install Impersonate Library
+        run: pip install curl_cffi
 
-      - name: Fetch and Merge Playlist
+      - name: Download & Merge Playlist
         run: |
           python -c '
           import os
-          import urllib.parse
-          import requests
+          from curl_cffi import requests
 
-          target = "https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus"
-          encoded_target = urllib.parse.quote(target, safe="")
+          target_url = "https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus"
 
-          # Daftar gateway publik untuk bypass blokir IP
-          endpoints = [
-              f"https://api.allorigins.win/raw?url={encoded_target}",
-              f"https://api.codetabs.com/v1/proxy/?quest={encoded_target}",
-              f"https://thingproxy.freeboard.io/fetch/{target}",
-              target
-          ]
+          print("Mengunduh playlist dengan impersonasi browser/Android...")
+          try:
+              # Meniru sidik jari TLS Chrome/Android asli untuk membobol 403
+              res = requests.get(
+                  target_url,
+                  impersonate="chrome120",
+                  headers={"User-Agent": "OTT Navigator 1.9.6.4 (Android)"},
+                  timeout=30
+              )
+              
+              if res.status_code != 200:
+                  print(f"Server menolak dengan status: {res.status_code}")
+                  exit(1)
 
-          m3u_text = ""
-          headers = {
-              "User-Agent": "OTT Navigator 1.9.6.4 (Android)",
-              "Accept": "*/*"
-          }
+              content = res.text.replace("\ufeff", "").strip()
 
-          for url in endpoints:
-              try:
-                  print(f"Mencoba fetch dari: {url[:50]}...")
-                  res = requests.get(url, headers=headers, timeout=20)
-                  if res.status_code == 200 and ("#EXTINF" in res.text or "#EXTM3U" in res.text):
-                      m3u_text = res.text
-                      print("Berhasil mengunduh data channel!")
-                      break
-              except Exception as e:
-                  print(f"Gagal di endpoint ini: {e}")
+              if "#EXTINF" not in content and "#EXTM3U" not in content:
+                  print("Konten yang didapat bukan M3U valid:")
+                  print(content[:300])
+                  exit(1)
 
-          if not m3u_text:
-              print("Semua endpoint gateway gagal / diblokir.")
+              # 1. Baca channel lokal dari local.m3u jika ada
+              local_lines = []
+              if os.path.exists("local.m3u"):
+                  with open("local.m3u", "r", encoding="utf-8") as f:
+                      for line in f:
+                          trimmed = line.strip()
+                          if trimmed and not trimmed.startswith("#EXTM3U"):
+                              local_lines.append(trimmed)
+
+              # 2. Ambil channel dari server target
+              target_lines = []
+              for line in content.splitlines():
+                  trimmed = line.strip()
+                  if trimmed and not trimmed.startswith("#EXTM3U"):
+                      target_lines.append(trimmed)
+
+              # 3. Gabungkan dan simpan ke sosial.m3u
+              final_data = ["#EXTM3U"] + local_lines + target_lines
+              with open("sosial.m3u", "w", encoding="utf-8") as f:
+                  f.write("\n".join(final_data) + "\n")
+
+              print(f"SUKSES! Berhasil menggabungkan {len(target_lines)} baris channel ke sosial.m3u.")
+
+          except Exception as e:
+              print(f"Error: {e}")
               exit(1)
-
-          m3u_text = m3u_text.replace("\ufeff", "").strip()
-
-          # 1. Baca channel lokal
-          local_lines = []
-          if os.path.exists("local.m3u"):
-              with open("local.m3u", "r", encoding="utf-8") as f:
-                  for line in f:
-                      trimmed = line.strip()
-                      if trimmed and not trimmed.startswith("#EXTM3U"):
-                          local_lines.append(trimmed)
-
-          # 2. Ambil baris target
-          target_lines = []
-          for line in m3u_text.splitlines():
-              trimmed = line.strip()
-              if trimmed and not trimmed.startswith("#EXTM3U"):
-                  target_lines.append(trimmed)
-
-          # 3. Gabungkan ke sosial.m3u
-          final_content = ["#EXTM3U"] + local_lines + target_lines
-          with open("sosial.m3u", "w", encoding="utf-8") as f:
-              f.write("\n".join(final_content) + "\n")
-
-          print(f"Selesai! Berhasil menggabungkan {len(target_lines)} baris channel ke sosial.m3u.")
           '
 
-      - name: Commit and Push
+      - name: Commit and Push Update
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sosial.m3u
-          git commit -m "Auto update playlist [$(date +'%Y-%m-%d %H:%M')]" || exit 0
+          git commit -m "Auto update merged playlist [$(date +'%Y-%m-%d %H:%M')]" || exit 0
           git push
