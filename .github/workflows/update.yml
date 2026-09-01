@@ -12,79 +12,80 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 20
+          python-version: '3.x'
 
-      - name: Install Playwright
+      - name: Install Dependencies
+        run: pip install urllib3 requests
+
+      - name: Fetch and Merge Playlist
         run: |
-          npm init -y
-          npm install playwright
-          npx playwright install --with-deps chromium
+          python -c '
+          import os
+          import urllib.parse
+          import requests
 
-      - name: Download and Merge Playlist
-        run: |
-          node -e '
-          const { chromium } = require("playwright");
-          const fs = require("fs");
+          target = "https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus"
+          encoded_target = urllib.parse.quote(target, safe="")
 
-          (async () => {
-            const browser = await chromium.launch({ headless: true });
-            const context = await browser.newContext({
-              acceptDownloads: true,
-              userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-            });
-            const page = await context.newPage();
+          # Daftar gateway publik untuk bypass blokir IP
+          endpoints = [
+              f"https://api.allorigins.win/raw?url={encoded_target}",
+              f"https://api.codetabs.com/v1/proxy/?quest={encoded_target}",
+              f"https://thingproxy.freeboard.io/fetch/{target}",
+              target
+          ]
 
-            console.log("Memicu unduhan file playlist...");
-            
-            // Tangkap event download browser
-            const downloadPromise = page.waitForEvent("download", { timeout: 60000 });
-            await page.goto("https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus").catch(() => {});
-            
-            const download = await downloadPromise;
-            const downloadPath = "./downloaded_playlist.m3u";
-            await download.saveAs(downloadPath);
-            await browser.close();
+          m3u_text = ""
+          headers = {
+              "User-Agent": "OTT Navigator 1.9.6.4 (Android)",
+              "Accept": "*/*"
+          }
 
-            if (!fs.existsSync(downloadPath)) {
-              console.log("Gagal: File unduhan tidak ditemukan.");
-              process.exit(1);
-            }
+          for url in endpoints:
+              try:
+                  print(f"Mencoba fetch dari: {url[:50]}...")
+                  res = requests.get(url, headers=headers, timeout=20)
+                  if res.status_code == 200 and ("#EXTINF" in res.text or "#EXTM3U" in res.text):
+                      m3u_text = res.text
+                      print("Berhasil mengunduh data channel!")
+                      break
+              except Exception as e:
+                  print(f"Gagal di endpoint ini: {e}")
 
-            let content = fs.readFileSync(downloadPath, "utf-8");
-            content = content.replace(/^\uFEFF/, "").trim();
+          if not m3u_text:
+              print("Semua endpoint gateway gagal / diblokir.")
+              exit(1)
 
-            if (!content.includes("#EXTINF")) {
-              console.log("Gagal: File terunduh tapi tidak ada tag #EXTINF.");
-              process.exit(1);
-            }
+          m3u_text = m3u_text.replace("\ufeff", "").strip()
 
-            // 1. Baca channel lokal dari local.m3u
-            let localLines = [];
-            if (fs.existsSync("local.m3u")) {
-              localLines = fs.readFileSync("local.m3u", "utf-8")
-                .split(/\r?\n/)
-                .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "");
-            }
+          # 1. Baca channel lokal
+          local_lines = []
+          if os.path.exists("local.m3u"):
+              with open("local.m3u", "r", encoding="utf-8") as f:
+                  for line in f:
+                      trimmed = line.strip()
+                      if trimmed and not trimmed.startswith("#EXTM3U"):
+                          local_lines.append(trimmed)
 
-            // 2. Filter isi playlist unduhan
-            const targetLines = content
-              .split(/\r?\n/)
-              .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "");
+          # 2. Ambil baris target
+          target_lines = []
+          for line in m3u_text.splitlines():
+              trimmed = line.strip()
+              if trimmed and not trimmed.startswith("#EXTM3U"):
+                  target_lines.append(trimmed)
 
-            // 3. Gabungkan menjadi satu file sosial.m3u
-            const finalM3U = ["#EXTM3U", ...localLines, ...targetLines].join("\n") + "\n";
-            fs.writeFileSync("sosial.m3u", finalM3U, "utf-8");
-            
-            // Bersihkan file sementara
-            fs.unlinkSync(downloadPath);
-            console.log(`Sukses! ${targetLines.length} baris channel berhasil digabungkan.`);
-          })();
+          # 3. Gabungkan ke sosial.m3u
+          final_content = ["#EXTM3U"] + local_lines + target_lines
+          with open("sosial.m3u", "w", encoding="utf-8") as f:
+              f.write("\n".join(final_content) + "\n")
+
+          print(f"Selesai! Berhasil menggabungkan {len(target_lines)} baris channel ke sosial.m3u.")
           '
 
       - name: Commit and Push
