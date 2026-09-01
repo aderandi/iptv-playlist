@@ -1,0 +1,37 @@
+name: Auto Merge Playlist
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # Jalan otomatis tiap 3 jam
+  workflow_dispatch: # Tombol manual
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Gabungkan Playlist
+        run: |
+          echo "#EXTM3U" > sosial.m3u
+          if [ -f "local.m3u" ]; then
+            grep -v '^#EXTM3U' local.m3u >> sosial.m3u
+            echo "" >> sosial.m3u
+          fi
+          curl -s -L -A "Mozilla/5.0" "https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus" > temp.m3u
+          if [ -s "temp.m3u" ]; then
+            grep -v '^#EXTM3U' temp.m3u >> sosial.m3u
+          fi
+          rm -f temp.m3u
+
+      - name: Simpan Perubahan
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sosial.m3u
+          git commit -m "Auto update playlist" || exit 0
+          git push
