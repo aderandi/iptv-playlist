@@ -26,7 +26,7 @@ jobs:
           npm install playwright
           npx playwright install --with-deps chromium
 
-      - name: Scrape and Merge Playlist
+      - name: Download and Merge Playlist
         run: |
           node -e '
           const { chromium } = require("playwright");
@@ -35,43 +35,55 @@ jobs:
           (async () => {
             const browser = await chromium.launch({ headless: true });
             const context = await browser.newContext({
+              acceptDownloads: true,
               userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             });
             const page = await context.newPage();
 
-            console.log("Mengakses server target...");
-            const response = await page.goto("https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus", {
-              waitUntil: "networkidle",
-              timeout: 60000
-            });
-
-            const content = await response.text();
+            console.log("Memicu unduhan file playlist...");
+            
+            // Tangkap event download browser
+            const downloadPromise = page.waitForEvent("download", { timeout: 60000 });
+            await page.goto("https://tv.ngebutz.my.id/playlist/nonton2025/12345/m3u_plus").catch(() => {});
+            
+            const download = await downloadPromise;
+            const downloadPath = "./downloaded_playlist.m3u";
+            await download.saveAs(downloadPath);
             await browser.close();
 
+            if (!fs.existsSync(downloadPath)) {
+              console.log("Gagal: File unduhan tidak ditemukan.");
+              process.exit(1);
+            }
+
+            let content = fs.readFileSync(downloadPath, "utf-8");
+            content = content.replace(/^\uFEFF/, "").trim();
+
             if (!content.includes("#EXTINF")) {
-              console.log("Gagal: Konten tidak valid atau kosong.");
-              process.exit(0);
+              console.log("Gagal: File terunduh tapi tidak ada tag #EXTINF.");
+              process.exit(1);
             }
 
-            // 1. Baca channel lokal jika ada
-            let localContent = "";
+            // 1. Baca channel lokal dari local.m3u
+            let localLines = [];
             if (fs.existsSync("local.m3u")) {
-              localContent = fs.readFileSync("local.m3u", "utf-8")
-                .split("\n")
-                .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "")
-                .join("\n");
+              localLines = fs.readFileSync("local.m3u", "utf-8")
+                .split(/\r?\n/)
+                .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "");
             }
 
-            // 2. Filter isi target
+            // 2. Filter isi playlist unduhan
             const targetLines = content
-              .split("\n")
-              .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "")
-              .join("\n");
+              .split(/\r?\n/)
+              .filter(line => !line.trim().startsWith("#EXTM3U") && line.trim() !== "");
 
-            // 3. Gabungkan dan simpan
-            const finalM3U = "#EXTM3U\n" + (localContent ? localContent + "\n" : "") + targetLines + "\n";
+            // 3. Gabungkan menjadi satu file sosial.m3u
+            const finalM3U = ["#EXTM3U", ...localLines, ...targetLines].join("\n") + "\n";
             fs.writeFileSync("sosial.m3u", finalM3U, "utf-8");
-            console.log("Berhasil menggabungkan seluruh channel!");
+            
+            // Bersihkan file sementara
+            fs.unlinkSync(downloadPath);
+            console.log(`Sukses! ${targetLines.length} baris channel berhasil digabungkan.`);
           })();
           '
 
