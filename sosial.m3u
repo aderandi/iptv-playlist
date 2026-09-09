@@ -1,5 +1,8 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",LINK DOWNLOAD
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",DIKTA TV
 https://sfile.co/user/8143581788673357
+
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",INSTAGRAM
+https://instagram.com/diktatv
 
