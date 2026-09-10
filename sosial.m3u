@@ -1,14 +1,14 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",V7 (MERAH)
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/icon-DiktaTV/APK%20Dikta%20P.png",V7 (MERAH)
 https://sfile.co/mK57l7rg6u8
 
-#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",V7 (BIRU)
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/icon-DiktaTV/APK%20Dikta.png",V7 (BIRU)
 https://sfile.co/pUds1BWmXwr
 
-#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",TELEGRAM
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/icon-DiktaTV/APK%20TELE.png",TELEGRAM
 https://t.me/diktatv
 
-#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV",INSTAGRAM
+#EXTINF:-1 tvg-name="DIKTA TV" group-title="DIKTA TV" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/icon-DiktaTV/APK%20IG.png",INSTAGRAM
 https://instagram.com/diktatv
 
