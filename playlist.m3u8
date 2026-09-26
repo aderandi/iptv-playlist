@@ -2,6 +2,12 @@
 
 //////////////////////////////FIFA ASEAN CUP///////////////////////////////////
 
+#EXTINF:-1 group-title="INDONESIA",tes
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.youtube.com/
+#EXTVLCOPT:http-origin=https://www.youtube.com
+https://www.youtube.com/watch?v=Ku6TgI2rDz4
+
 #EXTINF:-1 group-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/fifaseancup.png" group-title="#FIFA ASEAN CUP"
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
