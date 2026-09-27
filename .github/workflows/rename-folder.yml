@@ -18,5 +18,5 @@ jobs:
           git mv "icon-DiktaTV" "opale"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Rename icon-DiktaTV to opale"
+          git commit -m "Rename opale to diks"
           git push
