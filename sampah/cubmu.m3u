@@ -2,6 +2,12 @@
 #EXTINF:-1 tvg-logo="" group-title="TV Nasional",TES TRANS 7 transvision
 https://cdnjkt913.transvision.co.id/live/master/4/4028c685651d7bcc01651f0db0bf0097/manifest.mpd
 
+#EXTINF:-1 tvg-logo="" group-title="TV Nasional",TES transvision gak tau
+https://cdnjkt913.transvision.co.id/live/master/1/4028c685651d7bcc01651f0db0bf0097/manifest.mpd
+
+#EXTINF:-1 tvg-logo="" group-title="TV Nasional",TES transvision gak tau
+https://cdnjkt913.transvision.co.id/live/master/5/4028c685651d7bcc01651f0db0bf0097/manifest.mpd
+
 #EXTINF:-1 tvg-logo="" group-title="TV Nasional",TES TRANS 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
