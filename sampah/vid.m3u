@@ -1,0 +1,436 @@
+#EXTM3U
+
+# =========================================================================================================================================================================
+# =================================== VIDIO123 ============================================================================================================================
+# =========================================================================================================================================================================
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/INDOSIAR.png",INDOSIAR
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/205/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/SCTV.png",SCTV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/204/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MOJI.png",MOJI
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/206/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/ANTV.png",ANTV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/782/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TVONE.png",TVONE
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/783/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MDTV.png",MDTV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/875/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/METROTV.png",METRO TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/777/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/RTV.png",RTV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/1561/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TVRI.png",TVRI NASIONAL
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/6441/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/GARUDATV.png",GARUDA TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/18162/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/NUSANTARATV.png",NUSANTARA TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/7432/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/BTV.png",BTV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/6165/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/BERITASATU.png",BERITA SATU
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/18280/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MUSICA.png",MUSICA
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/7619/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/SINPOTV.png",SIN PO TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/19046/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/JTV.png",JTV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/9713/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/DAAITV.png",DAAI TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/6482/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MAGNATV.png",MAGNA TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/7230/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/DMITV.png",DMI TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/12607/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/AJWATV.png",AJWA TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/7464/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/QURANTV.png",QURAN TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/6852/index.mpd
+
+#EXTINF:-1 group-title="VIDIO123" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MENTARITV.png",MENTARI TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/8237/index.mpd
+
+
+# =========================================================================================================================================================================
+# =================================== NEXTGENZ ============================================================================================================================
+# =========================================================================================================================================================================
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/INDOSIAR.png",INDOSIAR
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/SCTV.png",SCTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=204&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=204&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MOJI.png",MOJI
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=206&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=206&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/ANTV.png",ANTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TVONE.png",TVONE
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=783&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=783&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MDTV.png",MDTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=875&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=875&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/METROTV.png",METRO TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=777&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=777&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/RTV.png",RTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=1561&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=1561&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TVRI.png",TVRI NASIONAL
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=6441&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=6441&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/GARUDATV.png",GARUDA TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=18162&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=18162&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/NUSANTARATV.png",NUSANTARA TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=7432&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=7432&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/BTV.png",BTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=6165&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=6165&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/BERITASATU.png",BERITA SATU
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=18280&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=18280&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MUSICA.png",MUSICA
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=7619&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=7619&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/SINPOTV.png",SIN PO TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=19046&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=19046&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/JTV.png",JTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=9713&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=9713&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/DAAITV.png",DAAI TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=6482&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=6482&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MAGNATV.png",MAGNA TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=7230&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=7230&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/DMITV.png",DMI TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=12607&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=12607&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/AJWATV.png",AJWA TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=7464&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=7464&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/QURANTV.png",QURAN TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=6852&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=6852&type=dash
+
+#EXTINF:-1 group-title="NEXTGENZ" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MENTARITV.png",MENTARI TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=8237&type=drm
+https://nextgenz.my.id/event/pidio/play.mpd?id=8237&type=dash
+
+
+# =========================================================================================================================================================================
+# =================================== BINTANG =============================================================================================================================
+# =========================================================================================================================================================================
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/INDOSIAR.png",INDOSIAR
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=205
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/SCTV.png",SCTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=204
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MOJI.png",MOJI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=206
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/ANTV.png",ANTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=782
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TVONE.png",TVONE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=783
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MDTV.png",MDTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=875
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/METROTV.png",METRO TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=777
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/RTV.png",RTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=1561
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TVRI.png",TVRI NASIONAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=6441
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/GARUDATV.png",GARUDA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=18162
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/NUSANTARATV.png",NUSANTARA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=7432
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/BTV.png",BTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=6165
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/BERITASATU.png",BERITA SATU
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=18280
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MUSICA.png",MUSICA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=7619
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/SINPOTV.png",SIN PO TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=19046
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/JTV.png",JTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=9713
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/DAAITV.png",DAAI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=6482
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MAGNATV.png",MAGNA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=7230
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/DMITV.png",DMI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=12607
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/AJWATV.png",AJWA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=7464
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/QURANTV.png",QURAN TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=6852
+
+#EXTINF:-1 group-title="BINTANG" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MENTARITV.png",MENTARI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-pidio-auto.shiokambing75.workers.dev/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=8237
+
+
+
