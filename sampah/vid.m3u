@@ -1,6 +1,63 @@
 #EXTM3U
 
 # =========================================================================================================================================================================
+# =================================== BACKUP ==============================================================================================================================
+# =========================================================================================================================================================================
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/RCTI.png",RCTI
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rplus.inisemar.my.id/rcti.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MNCTV.png",MNC TV
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rplus.inisemar.my.id/mnctv.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/GTV.png",GTV
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rplus.inisemar.my.id/gtv.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TRANS7.png",TRANS 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TRANS7.png",TRANS 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://video.detik.com
+#EXTVLCOPT:http-referrer=https://video.detik.com/
+https://trans.diorx.my.id/trans7.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TRANSTV.png",TRANS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://video.detik.com
+#EXTVLCOPT:http-referrer=https://video.detik.com/
+https://trans.diorx.my.id/transtv.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MOJI.png",MOJI
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+http://202.150.161.212:5000/live/channel39/playlist.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/ANTV.png",ANTV
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://vidsemar.pages.dev/terraluna3/782.mpd
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/MDTV.png",MDTV
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+http://202.150.161.212:5000/live/channel31/playlist.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/xx/TVRI.png",TVRI NASIONAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0, AppleWebKit/537.36 (KHTML, like Gecko), Chrome/[Version], and Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h17/01.m3u8
+
+
+
+
+
+
+# =========================================================================================================================================================================
 # =================================== VIDIO123 ============================================================================================================================
 # =========================================================================================================================================================================
 
